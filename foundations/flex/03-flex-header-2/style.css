@@ -2,6 +2,29 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  padding: 8px;
+  align-items: center;
+  gap:8px;
+  flex-wrap:wrap;
+
+}
+
+.profile-image{
+  min-width: 48px;
+}
+
+
+ul{
+  margin-right:auto;
+  display:flex;
+  flex-direction: row;
+  gap:8px;
+}
+
 body {
   margin: 0;
   background: #eee;
