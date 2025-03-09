@@ -1,3 +1,35 @@
+.header{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding:8px;
+}
+ul{
+display:flex;
+flex-direction: row;
+gap:8px;
+}
+
+.left-list{
+
+}
+.right-list{
+
+}
+
+.left-links{
+margin-right: auto;
+}
+
+.right-links{
+margin-left:auto;
+}
+
+.logo {
+
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
